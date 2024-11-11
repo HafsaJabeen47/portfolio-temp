@@ -1,0 +1,80 @@
+/* main-width: 200px */
+@media screen and (min-width: 200px){
+    .navbar{
+        height: 60px;
+        padding: 10px 20px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar button{
+        display: none;
+    }
+    .logo img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    #logo-img{
+        transform: translate(-21px, -6px);
+        width: 13px;
+        height: 13px;
+    }
+    .nav-logo h4{
+        font-size: var(--text);
+        margin-left: -10px;
+        padding-top: 8px;
+    }
+    .navbar i{
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+/* main-width: 375px */
+@media screen and (min-width: 375px){
+    .navbar{
+        height: 70px;
+        padding: 10px 25px;
+    }
+    .logo img{
+        max-width: 40px;
+        max-height: 40px;
+    }
+    #logo-img{
+        transform: translate(-28px, -3px);
+        width: 17px;
+        height: 17px;
+    }
+    .nav-logo h4{
+        font-size: 18px;
+        margin-left: -10px;
+        padding-top: 8px;
+    }
+    .navbar i{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+/* main-width: 576px */
+@media screen and (min-width: 576px){
+    .navbar{
+        padding: 10px 25px;
+    }
+}
+
+/* main-width: 992px */
+@media screen and (min-width: 992px){
+    .navbar ul{
+        display: flex;
+    }
+    .navbar button{
+        display: flex;
+    }
+    .navbar i{
+        display: none;
+    }
+}
