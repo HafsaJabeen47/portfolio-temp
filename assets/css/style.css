@@ -28,7 +28,7 @@ html{
     max-width: 1250px;
     /* max-width: 1440px; */
     margin: 0 auto;
-    padding: 20px;
+    
 }
 
 /* transparent button */
@@ -61,6 +61,7 @@ header{
 .primary-header{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~ */
@@ -110,7 +111,7 @@ header{
     line-height: 4.5rem;
     display: none;
 }
-.fa-bars{
+.fa-bars, .fa-x{
     width: 4.5rem;
     height: 4.5rem;
     text-align: center;
